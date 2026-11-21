@@ -1,0 +1,20 @@
+# Generated build output
+**/target/
+**/build/
+
+# Metadata from nested repositories
+**/.git/
+.git.invalid-empty-backup/
+.nested-git-backups/
+
+# Local environment files and secrets
+**/.env
+**/.env.*
+!**/.env.example
+**/.environments/
+*.local.properties
+
+# Logs and editor state
+**/*.log
+**/.idea/
+**/.vscode/
